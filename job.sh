@@ -2,7 +2,7 @@
 #PBS -l select=1:ncpus=4:mpiprocs=4:ompthreads=1:jobtype=core
 #PBS -l walltime=1:00:00
 
-prefix=$PREFIX_HP36_IMPLICIT
+prefix=$PREFIX_TEST_TGC
 
 if [ "$PBS_O_WORKDIR" ]; then
   cd ${PBS_O_WORKDIR}
