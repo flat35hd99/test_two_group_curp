@@ -9,7 +9,7 @@ if [ "$PBS_O_WORKDIR" ]; then
 fi
 
 module purge
-source $prefix/util/load_curp_ims
+source $prefix/load_curp_ims
 
 set -xeu
 
